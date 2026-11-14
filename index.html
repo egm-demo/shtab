@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Штаб</title>
+<link rel="icon" href="icon.svg">
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<nav class="nav" id="nav"></nav>
+<main id="main"></main>
+<dialog id="dlg" class="dlg"></dialog>
+<dialog id="search" class="dlg search">
+  <input id="q" type="search" placeholder="Искать по задачам, заметкам, срокам и ссылкам" autocomplete="off">
+  <div id="found" class="found"></div>
+</dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+</body>
+</html>
